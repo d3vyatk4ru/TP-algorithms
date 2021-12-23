@@ -115,6 +115,8 @@ int main() {
     MatrixGraph matrixGraph2(matrixGraph);
     mainBFS(matrixGraph2, [](int vertex){ std::cout << vertex << " ";});
     std::cout << std::endl;
+    mainDFS(matrixGraph2, [](int vertex){ std::cout << vertex << " ";});
+    std::cout << std::endl;
     std::cout << std::endl;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -136,10 +138,12 @@ int main() {
 
     mainBFS(setGraph, [](int vertex){ std::cout << vertex << " ";});
     std::cout << std::endl;
-
     SetGraph setGraph2(setGraph);
     mainBFS(setGraph2, [](int vertex){ std::cout << vertex << " ";});
     std::cout << std::endl;
+    mainDFS(setGraph, [](int vertex){ std::cout << vertex << " ";});
+    std::cout << std::endl;
+    
     std::cout << std::endl;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -163,6 +167,8 @@ int main() {
     std::cout << std::endl;
 
     ArcGraph ArcGraph2(arcGraph);
+    mainDFS(arcGraph, [](int vertex){ std::cout << vertex << " ";});
+    std::cout << std::endl;
     mainBFS(arcGraph, [](int vertex){ std::cout << vertex << " ";});
     std::cout << std::endl;
 
