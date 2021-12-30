@@ -1,3 +1,0 @@
-/home/d3vyatk4/Рабочий стол/park.mail/A&DS/mod3/Task_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/d3vyatk4/Рабочий стол/park.mail/A&DS/mod3/Task_3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/d3vyatk4/Рабочий стол/park.mail/A&DS/mod3/Task_3/cmake-build-debug/CMakeFiles/Task_3.dir
